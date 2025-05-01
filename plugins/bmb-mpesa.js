@@ -12,15 +12,15 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `*╭───❍SUPPORT🥹🫡❍*
+        let dec = `*╭───❍SUPPORT🫴🫡❍*
 ‎*├⬡ .ᴍᴘᴇsᴀ*
-‎*├⬡ .ᴀɪʀᴛᴇʟᴍᴏɴᴇʏ*
+‎*├⬡ .payment*
 ‎*╰───────────────❍*`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.ibb.co/7txWYFwF/nexus-xmd.jpg` },
+                image: { url: `https://i.ibb.co/QFQfWrZF/bmb-xmd.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
